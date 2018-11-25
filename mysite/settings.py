@@ -25,8 +25,6 @@ SECRET_KEY = 'z9czkfqst&8lv$c^!j70@(e2l82l=x=+%prr%#ukddd-66)yol'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dunjajv.pythonanywhere.com']
-
 
 # Application definition
 
@@ -120,7 +118,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT=os.path.join(BASE_DIR, 'static')
-ALLOWED_HOSTS=['127.0.0.1', '<dunjajv>.pythonanywhere.com']
+ALLOWED_HOSTS=['127.0.0.1', 'dunjajv.pythonanywhere.com']
 DATABASES={
     'default':{
         'ENGINE':'django.db.backends.sqlite3',
